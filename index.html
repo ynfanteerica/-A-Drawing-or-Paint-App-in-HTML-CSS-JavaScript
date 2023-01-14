@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="./asset/script.js" defer></script>
     <title>Drawing App Javascript</title>
 </head>
 <body>
@@ -14,16 +15,16 @@
         <div class="row">
             <label class="title">Shapes</label>
             <ul class="options">
-                <li class="option">
-                    <img src="./asset/images/rectangle.png" width=" 40px " height=" 40px">
-                    <span>Square</span>
+                <li class="option tool" id="rectangle">
+                    <img src="./asset/images/rectangle-svgrepo-com.svg" width=" 40px " height=" 40px">
+                    <span>Rectangle</span>
                  </li>
-                <li class="option">
-                    <img src="./asset/images/circle.png" width=" 40px " height=" 40px">
+                <li class="option tool" id="circle">
+                    <img src="./asset/images/circle-svgrepo-com.svg" width=" 40px " height=" 40px">
                     <span>Circle</span>
                  </li>
-                 <li class="option">
-                    <img src="./asset/images/image.png" width=" 40px " height=" 40px">
+                 <li class="option tool" id="triangle">
+                    <img src="./asset/images/triangle-svgrepo-com.svg" width=" 40px " height=" 40px">
                     <span>Triangle</span>
                   </li>
                   <li class="option">
@@ -36,11 +37,11 @@
         <div class="row">
             <label class="title">Options</label>
             <ul class="options">
-                <li class="option active">
+                <li class="option active tool" id="brush">
                     <img src="./asset/images/Artists-Brush-And-Paint.svg" width=" 40px " height=" 40px">
                     <span>Brush</span>
                  </li>
-                <li class="option">
+                <li class="option tool" id="eraser">
                     <img src="./asset/images/1555382133.svg" width=" 40px " height=" 40px">
                     <span>Eraser</span>
                  </li>
@@ -53,19 +54,23 @@
             <label class="title">Colors</label>
             <ul class="options">
                <li class="option"></li>
+               <li class="option selected"></li>
                <li class="option"></li>
                <li class="option"></li>
-               <li class="option"></li>
-               <li class="option"></li>
+               <li class="option">
+                <input type="color" id="color-picker" value="#4A98F7">
+               </li>
             </ul>
         </div>
-        <div class="row">
+        <div class="row buttons">
         <button class="clear-canvas">Clear</button>
         <button class="save-img">Save As Image </button>
         </div>
                   
     </section>
-    <section class="drawing-board"></section>
+    <section class="drawing-board">
+        <canvas></canvas>
+    </section>
    </div> 
 </body>
 </html>
