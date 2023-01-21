@@ -10,4 +10,4 @@ What can children learn from drawing?
 -Increases Individual Confidence. 
 -Teaches Creative Problem Solving.
 
-This drawing application is fantastic for young children. It has simple tools that kids may use to draw, paint, and color, as well as unique elements like various shapes, a brush, and colors that encourage youngsters to experiment, as well as lines and symmetry. Kids may consolidate fantastic memories and keep their art work with this app while enjoying the lovely hobby of drawing.
+Children will love this drawing app. Simple drawing, painting, and coloring tools are provided for kids to utilize. Different shapes, a brush, and colors inspire kids to experiment with symmetry and lines. Children may make wonderful memories with this software and preserve their artwork on their gadgets, which they can download and enjoy forever.
